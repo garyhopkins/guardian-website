@@ -7,6 +7,10 @@ header {
     flex-wrap: wrap;
 }
 
+footer {
+    background-color: lightcyan;
+}
+
 img.logo {
     height: auto;
     max-height: 100px;
