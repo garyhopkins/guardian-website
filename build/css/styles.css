@@ -2,9 +2,19 @@
     border: 1px solid red;
 }
 
+.debug-green {
+    border: 1px solid green;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+
 header {
     display: flex;
     flex-wrap: wrap;
+
 }
 
 footer {
@@ -27,6 +37,9 @@ nav {
 ul {
     display: flex;
     list-style: none;
+    margin: auto;
+    width: 50%;
+    
 }
 
 nav li {
