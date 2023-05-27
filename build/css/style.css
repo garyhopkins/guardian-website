@@ -14,7 +14,6 @@
 header {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 footer {
@@ -39,9 +38,15 @@ ul {
     list-style: none;
     margin: auto;
     width: 50%;
-    
 }
 
 nav li {
     margin-right: 100px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    background: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 10px;
 }
