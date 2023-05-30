@@ -1,3 +1,11 @@
+
+ /* CSS Reset to remove default formatting */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  */
+
 .debug {
     border: 1px solid red;
 }
@@ -50,3 +58,13 @@ nav li {
     padding: 20px;
     margin-bottom: 10px;
 }
+
+.box {
+    background: f4f4f4;
+    border: 2px #777 solid;
+    width: 500px;
+    padding: 20px;
+}
+
+
+
