@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }  */
 
+/* Main styling */
+
 body, html {
     font-family: Arial, Helvetica, sans-serif
 }
@@ -13,6 +15,30 @@ body, html {
 a {
     text-decoration: none;
     cursor: pointer;
+    color: rgb(26, 26, 26);
+}
+
+/* Showcase styling */
+
+.card {
+    border: 1px solid #ccc;
+    background: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.box {
+    background: f4f4f4;
+    border: 2px #777 solid;
+    width: 500px;
+    padding: 20px;
+}
+
+/* Utility classes */
+
+.container {
+    width: 50%;
+    margin: auto;
 }
 
 .debug {
@@ -23,18 +49,17 @@ a {
     border: 1px solid green;
 }
 
-.container {
-    width: 50%;
-    margin: auto;
-}
+/* Padding */
+
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; }
+
+/* Header styling */
 
 header {
     display: flex;
     flex-wrap: wrap;
-}
-
-footer {
-    background-color: lightcyan;
 }
 
 img.logo {
@@ -50,6 +75,12 @@ nav {
     flex-basis: 100%;
 }
 
+nav ul li a:hover, 
+nav ul li a.current {
+    background: blue;
+    color: white;
+}
+
 ul {
     display: flex;
     list-style: none;
@@ -61,18 +92,10 @@ nav li {
     margin-right: 100px;
 }
 
-.card {
-    border: 1px solid #ccc;
-    background: #f4f4f4;
-    padding: 20px;
-    margin-bottom: 10px;
-}
+/* Footer styling */
 
-.box {
-    background: f4f4f4;
-    border: 2px #777 solid;
-    width: 500px;
-    padding: 20px;
+footer {
+    background-color: lightcyan;
 }
 
 
