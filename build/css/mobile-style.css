@@ -26,3 +26,8 @@
 .team img {
     width: 70%;
 }
+
+#team {
+    align-items: center;
+    align-content: center;
+}
