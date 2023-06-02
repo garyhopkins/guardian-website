@@ -4,13 +4,18 @@
 #navbar {
     display: flex;
     flex-direction: column;
-    height: 100px;
+    height: 110px;
     padding-bottom: 10px;
 }
 
 #navbar a {
     padding: 10px 10px;
     margin: 3px;
+    
+}
+
+#navbar img {
+    margin-bottom: 10px;
 }
 
 .flex-items {
