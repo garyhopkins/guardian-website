@@ -32,6 +32,20 @@
     opacity: 0.9;
 }
 
+.faq-btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 2px 5px;
+    color: #fff;
+    background-color: rgb(55, 163, 217);
+    border: none;
+    border-radius: 5px;
+}
+
+.faq-btn:hover {
+    opacity: 0.9;
+}
+
 /* Flex items */
 
 .flex-items {
@@ -138,5 +152,32 @@
 span {
     background-color: yellow;
     color: black;
+}
+
+/* FAQ Cards */
+
+.faq-card {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.faq-card:hover {
+    background-color: #e0e0e0;
+}
+
+.faq-question {
+    font-weight: bold;
+}
+
+.faq-answer {
+    display: none;
+    margin-top: 10px;
+}
+
+.faq-card.expanded .faq-answer {
+    display: block;
 }
 
