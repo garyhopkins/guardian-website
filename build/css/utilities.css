@@ -41,7 +41,7 @@
     height: 100%;
 }
 
-.flex-items p {
+.icons .flex-items p {
     text-align: justify;
 }
 
@@ -133,5 +133,10 @@
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
+}
+
+span {
+    background-color: yellow;
+    color: black;
 }
 
