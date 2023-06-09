@@ -113,7 +113,7 @@ img {
 /* Icons */
 
 .icons {
-    padding: 30px;
+    padding: 25px;
 }
 
 .icons i {
@@ -131,16 +131,16 @@ img {
     opacity: 0.7;
 }
 
-.team img {
-    border-radius: 50%;
-}
-
 .faq-answer ul {
     list-style: circle;
 }
 
 .faq-answer ul li {
     margin-left: 1em;
+}
+
+.team img {
+    border-radius: 50%;
 }
 
 /* Footer styling */

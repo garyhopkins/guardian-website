@@ -60,7 +60,8 @@
 }
 
 .flex-items > div {
-    padding: 20px;
+    padding: 15px;
+    padding-top: 25px;
 }
 
 /* Flex columns */
@@ -118,7 +119,7 @@
 /* Section header */
 
 .section-header {
-    padding: 30px;
+    padding-top: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
