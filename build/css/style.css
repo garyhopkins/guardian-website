@@ -139,9 +139,6 @@ img {
     margin-left: 1em;
 }
 
-.team img {
-    border-radius: 50%;
-}
 
 /* Footer styling */
 
@@ -153,4 +150,28 @@ footer {
     color: black;
     text-align: center;
     height: 50px;
+}
+
+/* Results styling */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 2px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#faq h2 {
+    background: blue;
+    display: block;
+    width: 100%;
+    color: white;
 }

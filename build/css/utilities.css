@@ -61,7 +61,6 @@
 
 .flex-items > div {
     padding: 15px;
-    padding-top: 25px;
 }
 
 /* Flex columns */
@@ -109,7 +108,14 @@
 }
 
 .flex-columns .column p {
-    margin: 20px 0;
+    margin: 5px 0;
+    font-style: italic;
+}
+
+.flex-columns .column p.underline {
+    border-bottom: gray 1px solid;
+    margin-bottom: 15px;    
+    padding-bottom: 15px;
 }
 
 .flex-columns.flex-reverse .row {
@@ -150,9 +156,13 @@
     padding: 0 4px;
 }
 
-span {
+span.highlight {
     background-color: yellow;
     color: black;
+}
+
+span.bold {
+    font-weight: bold;
 }
 
 /* FAQ Cards */
@@ -182,3 +192,6 @@ span {
     display: block;
 }
 
+div.blank {
+    margin-bottom: 50px;
+}
